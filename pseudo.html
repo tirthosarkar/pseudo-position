@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo</title>
+    <style>
+        h3{
+            color: blue;
+        }
+        h3:hover{
+            color: red;
+            background-color: yellow;
+        }
+        input:focus{
+            color: blue;
+            background-color: rgb(229, 223, 223);
+            outline: 1px solid rgb(0, 255, 106);
+        }
+        a:visited{
+            color: blue;
+        }
+
+        /* li:last-child{
+            color: red;
+        } */
+         /* li:first-child{
+            color: green;
+         } */
+
+            li:nth-child(2n+1){
+                color: rgb(255, 0, 0);
+            }
+    </style>
+</head>
+<body>
+    <h3>My heading</h3>
+    <input type="text">
+    <input type="text">
+    <input type="text">
+    <a href="https://google.com/" target="_blank">Google</a>
+    <a href="https://www.amazon.com/" target="_blank">Amazon</a>
+   <ul> 
+    <li>mofij</li>
+    <li>hofig</li>
+    <li>nafig</li>
+    <li>nahad</li>
+    <li>fahad</li>
+    <li>jihad</li>
+    </ul>
+</body>
+</html>

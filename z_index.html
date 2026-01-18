@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            position: relative;
+        }
+
+        .boy {
+            z-index: 10;
+        }
+
+        .ring {
+            z-index: 3;
+            top: -1950px;
+            left: 150px;
+
+        }
+
+        .water {
+            z-index: 2;
+            top: -4300px;
+        }
+    </style>
+</head>
+
+<body>
+    <h3>Z index</h3>
+    <div class="swim-container">
+        <div class="box boy">
+            <img src="images/boy.png" alt="">
+        </div>
+        <div class="box ring">
+            <img src="images/ring.png" alt="">
+        </div>
+        <div class="box water">
+            <img src="images/water.avif" alt="">
+        </div>
+    </div>
+</body>
+
+</html>
